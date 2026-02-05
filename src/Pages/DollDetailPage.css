@@ -1,0 +1,36 @@
+.dollDetailPage {
+  display: flex;
+  gap: 20px;
+}
+
+.imgContainer {
+  width: 50%;
+  margin: 4%;
+}
+
+.dollImg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.rightContainer {
+  width: 50%;
+  margin: 4%;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+.rightInnerContainer h3{
+  color: #222049;
+}
+
+.addToCartBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

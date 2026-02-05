@@ -1,0 +1,56 @@
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .register-container > form {
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 5px 5px 10px  #222049;
+    border-radius: 10px;
+  }
+  
+  .signup-button {
+    background:#222049;
+    float: right;
+    border:none;
+    border-radius: 10%;
+    padding: 4px;
+    font-size: large;
+    color:#fff;
+    margin: 5%;
+    
+  }
+  label{
+    color:#222049;;
+    /* color: #00adb5; */
+    font-size: large;
+  }
+
+  #changepassword{
+    float: left;
+  }
+input{
+    width: 100%;
+}
+.register-container h1{
+    color:#222049; 
+}
+.card-details p{
+  color: #222049;
+}
+.register-container h2{
+  color:#222049; 
+}
+
+.register-container button{
+  background-color: #222049;
+  color: #fff;
+}
